@@ -1,15 +1,15 @@
-# AudioVideoCOnferencing01
-Welcome to our WebRTC GitHub repository! 🌐
+# Mumble2
+A real time messaging & video calling. Youtube tutorial will be upload in the comming days.
 
-WebRTC (Web Real-Time Communication) is an open-source project that enables real-time communication capabilities directly in web browsers and mobile applications. This repository serves as a comprehensive resource for developers interested in leveraging the power of WebRTC in their projects.
+Live Demo: https://www.mumble2.dev/
 
-Here's what you'll find in our repository:
-🔹 Core WebRTC libraries and APIs for building real-time communication applications.
-🔹 Example code snippets and demos showcasing the capabilities of WebRTC.
-🔹 Documentation and guides to help you understand and implement WebRTC in your applications.
-🔹 Issues tracker for reporting bugs, suggesting features, or seeking help from the community.
-🔹 Contribution guidelines for developers who want to contribute to the WebRTC project.
+# Installation
+* 1 - clone repo https://github.com/divanov11/mumble2
+* 2 - Create an account on agora.io and create an app to generate an APP ID
+* 3 - Update APP ID, Temp Token and Channel Name in room_rtc.js
+```javascript
+let APP_ID = "YOU-APP-ID"
+```
 
-Whether you're a beginner exploring real-time communication technologies or an experienced developer seeking to integrate WebRTC into your applications, this repository has everything you need to get started.
 
-Join our growing community of developers and let's build the future of real-time communication together! 🚀 #WebRTC #OpenSource #WebDevelopment
+<img src="./images/preview.png">  
